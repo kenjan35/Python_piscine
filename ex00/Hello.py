@@ -1,11 +1,10 @@
-ft_list = ["Hello", "tata!"]
+ft_list = ["Hello"]
 ft_tuple = ("Hello", "toto!")
-ft_set = {"Hello", "tutu!"}
+ft_set = {"Hello", "Hello", "tutu!"}
 ft_dict = {"Hello" : "titi!"}
 
-ft_list.pop()
 ft_list.append("World!")
-ft_tuple = (ft_tuple[0], "Madagascar!")
+ft_tuple = ft_tuple[:1] + ("Madagascar!")
 ft_set.remove("tutu!")
 ft_set.add("Antananarivo!")
 ft_dict["Hello"] = "42Antananarivo!"
